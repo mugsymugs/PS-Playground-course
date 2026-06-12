@@ -1,0 +1,3 @@
+cd C:\Users\Ralph\Downloads
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+.\IT-RemediationToolkit.ps1 -ComputerName localhost -Mode SpoolerOnly
